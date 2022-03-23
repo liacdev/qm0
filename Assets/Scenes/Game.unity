@@ -216,7 +216,6 @@ RectTransform:
   m_Children:
   - {fileID: 562892332}
   - {fileID: 832223219}
-  - {fileID: 387318450}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -250,11 +249,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 387318449}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 260454212}
+  m_Father: {fileID: 1231621399}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -944,6 +943,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 848253966}
+  - component: {fileID: 848253967}
   m_Layer: 0
   m_Name: Timer
   m_TagString: Untagged
@@ -965,6 +965,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &848253967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848253965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab194b99a09c4221f8fa2defecb015a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToCompleteQuestion: 3
+  timeToShowCorrectAnswer: 2
+  loadNextQuestion: 0
+  fillFraction: 0
 --- !u!1 &854707017 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5899701257630136930, guid: df50a076f234ce98ea9b584d31d06f4f, type: 3}
@@ -1064,6 +1080,7 @@ RectTransform:
   m_Children:
   - {fileID: 558706326}
   - {fileID: 1523808377}
+  - {fileID: 387318450}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1093,6 +1110,7 @@ MonoBehaviour:
   - {fileID: 1818504801}
   defaultAnswerSprite: {fileID: 21300000, guid: f96191e61c2693acd8f8938e43c3daf7, type: 3}
   correctAnswerSprite: {fileID: 21300000, guid: 0b076a9df2e2888d49799ecf16853bae, type: 3}
+  timerImage: {fileID: 387318451}
 --- !u!1001 &1422998203
 PrefabInstance:
   m_ObjectHideFlags: 0
